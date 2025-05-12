@@ -5,4 +5,4 @@ ENV MYSQL_ROOT_PASSWORD=dbusers123
 
 COPY init.sql /docker-entrypoint-initdb.d/
 
-EXPOSE 3336
+EXPOSE 3306
